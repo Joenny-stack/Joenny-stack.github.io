@@ -143,12 +143,23 @@
                 </ul>
               </div>
             </div>
+            <!-- The expanding image container -->
+<div class="container">
+  <!-- Close the image -->
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+  <!-- Expanded image -->
+  <img id="expandedImg" style="width:100%">
+
+  <!-- Image text -->
+  <div id="imgtext"></div>
+</div>
             <div class="col-lg-12">
               <div class="row grid">
                 <div class="col-lg-6 templatemo-item-col all soon">
                   <div class="meeting-item">
                     <div class="thumb">
-                      <a href="meeting-details.html"><img src="assets/images/meeting-01.jpg" alt=""></a>
+                      <a href="javascript:;" ><img src="assets/images/meeting-01.jpg" alt="" onclick="myFunction(this);"></a>
                     </div>
                     <div class="down-content">
                       <a href="meeting-details.html"><h4>New Lecturers Meeting</h4></a>
@@ -231,16 +242,18 @@
                 </div>
                 <div class="col-lg-6 templatemo-item-col all att soon">
                   <div class="meeting-item">
-                    <div class="thumb">
-                      <a href="meeting-details.html"><img src="assets/images/meeting-03.jpg" alt=""></a>
+                    <div class="scroll-container">
+                      <img src="assets/images/meeting-03.jpg" alt="Cinque Terre">
+                      <img src="assets/images/meeting-01.jpg" alt="Forest">
+                      <img src="assets/images/meeting-02.jpg" alt="Northern Lights">
+                      <img src="assets/images/meeting-03.jpg" alt="Mountains" onclick="myFunction(this);">
                     </div>
-                    <div class="down-content">
-                      <a href="meeting-details.html"><h4>Online Social Networking</h4></a>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
+
             <div class="col-lg-12">
               <div class="pagination">
                 <ul>
@@ -329,6 +342,19 @@
         $(window).scroll(function () {
           checkSection();
         });
+
+        function myFunction(imgs) {
+        // Get the expanded image
+        var expandImg = document.getElementById("expandedImg");
+       // Get the image text
+        var imgText = document.getElementById("imgtext");
+        // Use the same src in the expanded image as the image being clicked on from the grid
+        expandImg.src = imgs.src;
+        // Use the value of the alt attribute of the clickable image as text inside the expanded image
+        imgText.innerHTML = imgs.alt;
+        // Show the container element (hidden with CSS)
+        expandImg.parentElement.style.display = "block";
+        };
     </script>
 </body>
 
