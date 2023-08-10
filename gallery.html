@@ -93,13 +93,13 @@
                       <!-- ***** Menu Start ***** -->
                       <ul class="nav">
                           <li><a href="index.html">Home</a></li>
-                          <li><a href="meetings.html" class="active">Meetings</a></li>
+                          <li><a href="" class="active">Academics</a></li>
                           <li><a href="index.html">Apply Now</a></li>
                           <li class="has-sub">
                               <a href="javascript:void(0)">Pages</a>
                               <ul class="sub-menu">
                                   <li><a href="meetings.html">Upcoming Meetings</a></li>
-                                  <li><a href="meeting-details.html">Meeting Details</a></li>
+                                  <li><a href="">Meeting Details</a></li>
                               </ul>
                           </li>
                           <li><a href="index.html">Courses</a></li> 
@@ -144,16 +144,17 @@
               </div>
             </div>
             <!-- The expanding image container -->
-<div class="container">
-  <!-- Close the image -->
+<!--div class="container">
+  
   <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
 
-  <!-- Expanded image -->
+ 
   <img id="expandedImg" style="width:100%">
 
-  <!-- Image text -->
   <div id="imgtext"></div>
-</div>
+</div -->
+
+
             <div class="col-lg-12">
               <div class="row grid">
                 <div class="col-lg-6 templatemo-item-col all soon">
@@ -246,7 +247,8 @@
                       <img src="assets/images/meeting-03.jpg" alt="Cinque Terre">
                       <img src="assets/images/meeting-01.jpg" alt="Forest">
                       <img src="assets/images/meeting-02.jpg" alt="Northern Lights">
-                      <img src="assets/images/meeting-03.jpg" alt="Mountains" onclick="myFunction(this);">
+                      <img src="assets/images/meeting-03.jpg" alt="Mountains">
+                      <!--img src="assets/images/meeting-03.jpg" alt="Mountains" onclick="myFunction(this);"-->
                     </div>
                     </div>
                   </div>
@@ -275,15 +277,14 @@
     
     <div class="footer">
       <p>Copyright © 2023 Firm Foundation. All Rights Reserved. 
-        <br>
-        Created and Maintained by <em> ICT Department </em>
-        <br>
-        Contact: <a href="mailto:mupandawana53@gmail.com">Designer</a>
-      </p>
+          <br>
+          Created and Maintained by <em> the Firm Foundation <a href="mailto:mupandawana53@gmail.com">ICT Department</a></em>
+          <br>
+        </p>
     </div>
   </section>
-
-
+  
+  
   <!-- Scripts -->
   <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
@@ -343,7 +344,7 @@
           checkSection();
         });
 
-        function myFunction(imgs) {
+      /* function myFunction(imgs) {
         // Get the expanded image
         var expandImg = document.getElementById("expandedImg");
        // Get the image text
@@ -354,7 +355,7 @@
         imgText.innerHTML = imgs.alt;
         // Show the container element (hidden with CSS)
         expandImg.parentElement.style.display = "block";
-        };
+        }; */
     </script>
 </body>
 
