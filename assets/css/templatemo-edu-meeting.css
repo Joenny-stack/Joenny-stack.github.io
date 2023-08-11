@@ -1508,6 +1508,15 @@ section.our-courses {
   line-height: 50px;
 }
 
+/* */
+section.academics {
+  background-image: url(../images/factsbg.jpg);
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 140px 0px 125px 0px;
+}
 
 /*
 ---------------------------------------------
