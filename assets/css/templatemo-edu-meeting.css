@@ -1510,7 +1510,7 @@ section.our-courses {
 
 /* */
 section.academics {
-  background-image: url(../images/factsbg.jpg);
+  background-image: url(../images/facts-bg.jpg);
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -1518,6 +1518,29 @@ section.academics {
   padding: 140px 0px 125px 0px;
 }
 
+section.academics h2 {
+  font-size: 38px;
+  color: #fff;
+  line-height: 50px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  margin-bottom: 50px;
+}
+
+section.academics .video {
+  text-align: center;
+  margin-left: 70px;
+  background-image: url(../images/price.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  border-radius: 20px;
+}
+
+section.academics .video img {
+  padding: 170px 0px;
+  max-width: 56px;
+}
 /*
 ---------------------------------------------
 our facts
