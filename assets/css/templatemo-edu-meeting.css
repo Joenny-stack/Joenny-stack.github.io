@@ -587,9 +587,11 @@ header
 }
 
 .header-area .main-nav .logo {
-  line-height: 100px;
+  /* line-height: 100px; */
+  height: 2px;
+  width: 2px;
   color: #fff;
-  font-size: 28px;
+  font-size: 18px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -602,6 +604,13 @@ header
 
 .background-header .main-nav .logo {
   line-height: 75px;
+}
+
+.rounded-circle{
+  border-radius: 50% !important;
+  max-width: 16.6667%;
+  flex: 0 0 16.6667%;
+  -ms-flex: 0 0 16.6667%;
 }
 
 .background-header .nav {
