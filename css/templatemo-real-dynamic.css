@@ -50,30 +50,6 @@ ul { line-height: 2; }
 
 .container-fluid { max-width: 1570px; }
 
-.tm-site-header {
-    background-color: #474849;
-    background-image: url(../img/stripe.png);
-    height: 60px;    
-}
-
-.tm-site-header-overlay {
-    color: white;
-    background-color: #656667;    
-    padding-top: 20px; 
-}
-
-.tm-header-stripe {
-    height: 20px;
-    width: 68.75%;
-    background-color: #474849;      
-    background-image: url(../img/stripe-short.png);
-}
-
-.tm-header-stripe-short {
-    width: 62%;
-    margin-top: 20px;  
-}
-
 .tm-site-header-left { padding-bottom: 55px; }
 
 .tm-site-header-right {

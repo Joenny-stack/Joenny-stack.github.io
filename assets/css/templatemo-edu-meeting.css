@@ -1858,6 +1858,15 @@ section.contact-us {
   padding: 140px 0px 0px 0px;
 }
 
+section.contact-us2 {
+  background-image: url(../images/meetings-bg.jpg);
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 40px 0px 0px 0px;
+}
+
 section.contact-us #contact {
   background-color: #fff;
   border-radius: 20px;
