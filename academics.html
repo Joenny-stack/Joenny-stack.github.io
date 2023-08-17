@@ -10,10 +10,10 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 
     <title>Firm Foundation - Academics</title>
-
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/bootstrap-4.4.1.css" rel="stylesheet">
+
 
 
     <!-- Additional CSS Files -->
@@ -198,20 +198,47 @@
  </div>
 
 <hr>
- <div class="container">
-  <button type="button" class="collapsible">Lower Secondary Subjects</button>
-  <div class="content">
-    <p>Maths, English, Shona, Science, Computer Science</p>
-  </div>
- </div>
- <div class="container">
-  <button type="button" class="collapsible">Lower Secondary Subjects</button>
-  <div class="content">
-    <p>Maths, English, Shona, Science, Computer Science</p>
-  </div>
- </div>
+ 
+<div class="container">
+  <div class="panel-group" id="accordion">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Lower Secondary Subjects</a>
+        </h4>
+      </div>
+      <div id="collapse1" class="panel-collapse collapse in">
+        <div class="panel-body">Maths, English, Science, Geography</div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">IGCSE Subjects</a>
+        </h4>
+      </div>
+      <div id="collapse2" class="panel-collapse collapse">
+        <div class="panel-body">Maths, English, Science, Geography</div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">A Level SUbjects</a>
+        </h4>
+      </div>
+      <div id="collapse3" class="panel-collapse collapse">
+        <div class="panel-body">Maths, English, Science, Geography.</div>
+      </div>
+    </div>
+  </div> 
 </div>
+
+
+</div> <!--academic structure-->
 </section>
+
+
 
   <section class="academics">
     <div class="container">
@@ -305,7 +332,17 @@
     <script src="assets/js/video.js"></script>
     <script src="assets/js/slick-slider.js"></script>
     <script src="assets/js/custom.js"></script>
+
     <script>
+
+const accordiona = document.getElementsByClassName('container');
+
+for (i=0; i<accordiona.length; i++) {
+  accordiona[i].addEventListener('click', function () {
+    this.classList.toggle('active')
+  })
+}
+
         //according to loftblog tut
         $('.nav li:first').addClass('active');
 
