@@ -1,0 +1,1396 @@
+.covidText {
+    text-align: center;
+    font-size: 12pt;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--danger)
+}
+
+.fad.fa-map-marked-alt {
+    font-size: 13pt;
+    --fa-primary-color: var(--gold);
+    --fa-secondary-color: var(--gray-dark)
+}
+
+.padleft {
+    padding-left: 10px
+}
+
+.banner-image-holder {
+    margin: 0 auto;
+    position: relative;
+    background-color: #000;
+    text-align: center
+}
+
+.caption {
+    position: absolute;
+    text-align: center;
+    top: 35%;
+    left: 8%;
+    width: 84%;
+    color: #fff;
+    text-shadow: 1px 1px 7px #00000050
+}
+
+.caption2 {
+    position: absolute;
+    text-align: center;
+    top: 52%;
+    vertical-align: middle;
+    left: 20%;
+    width: 80%;
+    color: #fff
+}
+
+.caption-title {
+    font-size: 4em
+}
+
+.caption-title2 {
+    font-size: 6em;
+    line-height: 60px
+}
+
+.caption-title3 {
+    color: #fff;
+    font-size: 22pt;
+    font-family: 'Comfortaa',cursive;
+    letter-spacing: 3px
+}
+
+.fas.fa-play {
+    color: var(--danger)
+}
+
+.banner-image-holder img {
+    max-width: 100%;
+    max-height: 100%
+}
+
+.serviceTimeInfo {
+    padding: 50px 0 30px 0;
+    background-color: #d5d5d5
+}
+
+.serviceImg {
+    width: 35%
+}
+
+.btnimg {
+    height: 75px;
+    padding-top: 20px;
+    padding-right: 10px;
+    font-size: 50pt;
+    color: #868686
+}
+
+.btnbox {
+    border: 1px solid #dfdfdf;
+    border-radius: 11px;
+    background-color: #f4f4f4;
+    padding: 10px 0 25px;
+    margin-bottom: 10px
+}
+
+.box {
+    background-color: #ff0
+}
+
+.location-description,.location-address,.location-sub-item {
+    font-size: .9em
+}
+
+.location-map {
+    cursor: pointer
+}
+
+.bullitens {
+    background-color: #dbe4ea
+}
+
+.hp-ser-title {
+    font-size: 1.3em;
+    text-transform: uppercase
+}
+
+.messagearea {
+    background-image: url('assets/images/Clouds.jpg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #d6e1e7;
+    height: 100%;
+    display: block
+}
+
+.messagearearow {
+    height: 100%;
+    padding: 20px 0 40px 0
+}
+
+.messagetxtarea {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    position: relative;
+    height: 200px;
+    overflow: hidden
+}
+
+.faded {
+    background-image: linear-gradient(to bottom,transparent,white);
+    background: -webkit-gradient(linear,left top,left bottom,from(rgba(255,255,255,0)),to(#fff))
+}
+
+.read-more {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    margin: 0 !important;
+    padding: 0
+}
+
+.read-more a {
+    position: absolute;
+    bottom: 13px;
+    right: 0;
+    margin-right: 25px;
+    padding: 3px 7px;
+    background-color: var(--blue);
+    color: #fff !important;
+    cursor: pointer;
+    border-radius: 3px;
+    opacity: .7
+}
+
+.messagedate {
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 1.2em;
+    padding-bottom: 10px
+}
+
+.messagetext {
+    color: #454545
+}
+
+.btnarea {
+    min-height: 150px;
+    margin: 65px 0 50px
+}
+
+.btnAreaRow {
+    text-align: center
+}
+
+.BTN-areaTitle {
+    font-size: 14pt;
+    font-weight: 500;
+    padding-top: 15px;
+    color: #8c8c8c
+}
+
+.fa-calendar-alt {
+    color: var(--blue)
+}
+
+.fa-signal-stream {
+    color: var(--blue)
+}
+
+.fa-archive {
+    color: var(--blue)
+}
+
+.notificationArea {
+    background-image: url('assets/images/Notifications.png');
+    background-repeat: no-repeat;
+    height: 440px;
+    background-size: contain;
+    display: block;
+    position: relative;
+    max-width: 1920px;
+    margin: 0 auto
+}
+
+.notificationArea .container {
+    position: relative
+}
+
+.notificationTextArea {
+    position: absolute;
+    right: 60px;
+    text-align: center
+}
+
+.notificationAreaRow {
+    height: 400px
+}
+
+.notificationTitle {
+    font-size: 2.6em;
+    text-align: center;
+    color: #a4a4a4;
+    font-weight: bold
+}
+
+.notificationText {
+    font-size: 18pt;
+    color: #a4a4a4;
+    font-weight: bold;
+    padding: 0 10px;
+    text-align: center
+}
+
+.notificationArea+.row {
+    margin-right: auto !important;
+    overflow-x: hidden
+}
+
+.bulletin-date {
+    position: absolute;
+    top: 39%;
+    left: 0;
+    right: 10px;
+    margin: auto;
+    font-size: 26pt;
+    text-align: center;
+    font-family: 'Parisienne',sans-serif
+}
+
+.bulletin-dayofweek {
+    position: absolute;
+    bottom: 2px;
+    right: 7px;
+    left: 0;
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Parisienne',sans-serif
+}
+
+.bulletin-month {
+    position: absolute;
+    top: 28%;
+    left: 0;
+    right: 7px;
+    text-align: center;
+    color: #686868;
+    font-size: 13pt;
+    text-transform: uppercase;
+    font-family: 'Parisienne',sans-serif
+}
+
+.boardContentArea {
+    background-color: #f3f3f3;
+    margin: 20px auto;
+    padding: 30px 0;
+    max-width: 1920px
+}
+
+.boardContent {
+    border: 1px solid var(--gray-md);
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: #fff
+}
+
+.boardContentTitle {
+    font-size: 1.2em;
+    padding-top: 20px;
+    font-weight: 500
+}
+
+.boardContentText {
+    font-size: .9em;
+    padding-top: 20px
+}
+
+.construcionArea {
+    background-image: url('assets/images/constructionbkg.png');
+    background-repeat: no-repeat;
+    background-color: #f0f0f0;
+    display: block;
+    vertical-align: middle;
+    position: relative;
+    max-width: 1920px;
+    margin: 30px auto;
+    text-align: center
+}
+
+.constructionImage {
+    padding: 20px 0
+}
+
+.historyArea {
+    background-color: #f0f0f0;
+    height: 400px;
+    background-size: contain;
+    display: flex;
+    vertical-align: middle;
+    position: relative;
+    max-width: 1920px;
+    margin: 30px auto
+}
+
+.history-bg-image {
+    background-image: url('https://branhamtabernacle.org/azure/branhamtabernacle/08e031b8-4e84-49a1-aa5f-b9e3e52ee76e.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    position: relative;
+    height: 400px;
+    display: block
+}
+
+.history-text {
+    position: absolute;
+    top: 50px;
+    left: 50px
+}
+
+.historyAreaRow {
+    height: 400px
+}
+
+.historyAreaText {
+    position: absolute;
+    left: 0
+}
+
+.historyTitle {
+    font-size: 50pt;
+    font-family: 'Dancing Script',cursive;
+    text-shadow: 2px 2px 4px #fff;
+    margin-bottom: -17px
+}
+
+.historyText {
+    font-size: 15pt;
+    padding-left: 10px;
+    font-family: 'Acme',sans-serif;
+    margin-top: -10px;
+    margin-left: 10px;
+    margin-bottom: -10px;
+    text-shadow: 2px 2px 4px #fff;
+    letter-spacing: 1px
+}
+
+.historyText2 {
+    font-size: 24pt;
+    padding-bottom: 0;
+    margin-left: -30px;
+    margin-bottom: -10px;
+    font-family: 'Acme',sans-serif;
+    text-shadow: 2px 2px 4px #fff;
+    letter-spacing: 1px
+}
+
+.historyText3 {
+    font-size: 19pt;
+    padding-bottom: 20px;
+    font-family: 'Acme',sans-serif;
+    text-shadow: 2px 2px 4px #fff;
+    letter-spacing: 1px;
+    margin-left: 30px
+}
+
+.section-title {
+    display: inline-block
+}
+
+.section-title img {
+    max-width: 570px
+}
+
+.years-label img {
+    max-width: 150px;
+    opacity: .5
+}
+
+.special-section {
+    background-image: url('../img/translations/en/easter2022/BT-RibbonEaster2022.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: auto 100%;
+    background-color: #000
+}
+
+.ribbon-area {
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+@media only screen and (max-width: 991px) {
+    .caption-title3 {
+        font-size:16pt
+    }
+
+    .caption2 {
+        top: 50%
+    }
+
+    .hp-ser-title {
+        font-size: 1.2em
+    }
+
+    .BTN-areaTitle {
+        font-size: 12pt
+    }
+
+    .notificationArea {
+        height: 340px
+    }
+
+    .notificationText {
+        color: #000;
+        text-shadow: 1px 1px 2px #a8a8a8
+    }
+
+    .notificationTitle {
+        color: #000;
+        text-shadow: 1px 1px 2px #a8a8a8
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .historyArea {
+        margin:10px auto
+    }
+
+    .caption {
+        top: 15%
+    }
+
+    .historyTitle {
+        color: var(--blue2);
+        text-shadow: 1px 1px 3px var(--dark);
+        font-size: 4.8em
+    }
+
+    .historyText {
+        color: var(--blue2);
+        text-shadow: 1px 1px 3px var(--dark);
+        font-size: 2.2em;
+        top: 0
+    }
+
+    .historyText2 {
+        color: var(--blue2);
+        text-shadow: 1px 1px 3px var(--dark);
+        font-size: 2.2em
+    }
+
+    .historyText3 {
+        color: var(--blue2);
+        text-shadow: 1px 1px 3px var(--dark);
+        font-size: 2.2em
+    }
+
+    .BTN-areaTitle {
+        font-size: 11pt
+    }
+
+    .history-bg-image {
+        height: 369px;
+        width: 335px
+    }
+
+    .years-label img {
+        max-width: 125px
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .messagetxtarea {
+        padding:20px 5px
+    }
+
+    .messagedate {
+        font-size: 1.1em
+    }
+
+    .cal {
+        max-width: 70px
+    }
+
+    .bulletin-date {
+        left: 3px;
+        font-size: 22pt
+    }
+
+    .bulletin-dayofweek {
+        right: 7px;
+        left: 0;
+        bottom: -3px
+    }
+
+    .bulletin-month {
+        font-size: 12pt
+    }
+
+    .BBquoteText p {
+        padding: 0 0 0 10px
+    }
+
+    .hp-ser-title {
+        font-size: 1.1em
+    }
+
+    .caption-title3 {
+        font-size: 10pt;
+        letter-spacing: 2px
+    }
+
+    .hp-ser-title {
+        font-size: .99em;
+        color: var(--danger)
+    }
+
+    .padtop {
+        padding-top: 20px
+    }
+
+    .btnarea {
+        padding: 20px;
+        border: 1px solid #e3e3e3;
+        margin: 10px
+    }
+
+    .btnimg {
+        height: 75px;
+        padding-top: 20px;
+        padding-right: 10px;
+        font-size: 50pt
+    }
+
+    .BTN-areaTitle {
+        font-size: 11pt;
+        padding-top: 25px
+    }
+
+    .caption-title {
+        font-size: 3em
+    }
+
+    .service {
+        margin-bottom: 30px
+    }
+
+    .serviceImg {
+        width: 25px
+    }
+
+    .notificationArea {
+        background-image: url('assets/images/Notifications.png');
+        background-repeat: no-repeat;
+        height: 180px;
+        background-size: contain;
+        vertical-align: middle;
+        position: relative;
+        max-width: 1920px;
+        margin: 30px auto 0 auto
+    }
+
+    .notificationTextArea {
+        right: 0;
+        padding-top: 10px
+    }
+
+    .notificationTitle {
+        font-size: 20pt;
+        text-align: center;
+        color: #fff;
+        font-weight: bold;
+        text-shadow: 2px 2px 4px #626262
+    }
+
+    .notificationText {
+        font-size: 14pt;
+        color: #fff;
+        font-weight: bold;
+        padding: 0 10px;
+        text-align: center;
+        text-shadow: 1px 1px 2px #626262
+    }
+
+    .notificationAreaRow {
+        height: 150px
+    }
+
+    .block {
+        display: block
+    }
+
+    .historyArea {
+        height: 265px;
+        padding: 25px
+    }
+
+    .historyAreaRow {
+        height: 220px
+    }
+
+    .historyTitle {
+        text-shadow: 2px 2px 4px #000;
+        font-size: 3.6em
+    }
+
+    .historyText {
+        text-shadow: 1px 1px 2px #000;
+        padding-left: 60px;
+        font-size: 1.5em
+    }
+
+    .historyText2 {
+        text-shadow: 1px 1px 2px #000;
+        margin-left: 30px;
+        font-size: 2.4em
+    }
+
+    .historyText3 {
+        text-shadow: 1px 1px 2px #000;
+        padding-bottom: 0;
+        font-size: 2em
+    }
+
+    .history-bg-image {
+        height: 329px;
+        width: 375px
+    }
+
+    .section-title img {
+        max-width: 75%
+    }
+
+    .years-label img {
+        max-width: 110px
+    }
+
+    .special-section {
+        background-image: url('../img/translations/en/easter2022/BT-RibbonEaster2022-M.jpg');
+        height: 90px
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .section-title img {
+        max-width:75%;
+        padding-top: 10px
+    }
+
+    .years-label img {
+        max-width: 95px
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .section-title img {
+        max-width:75%
+    }
+
+    .years-label img {
+        max-width: 85px
+    }
+}
+
+.covidText {
+    text-align: center;
+    font-size: 12pt;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--danger)
+}
+
+.fad.fa-map-marked-alt {
+    font-size: 13pt;
+    --fa-primary-color: var(--gold);
+    --fa-secondary-color: var(--gray-dark)
+}
+
+.padleft {
+    padding-left: 10px
+}
+
+.banner-image-holder {
+    margin: 0 auto;
+    position: relative;
+    background-color: #000;
+    text-align: center
+}
+
+.caption {
+    position: absolute;
+    text-align: center;
+    top: 35%;
+    left: 8%;
+    width: 84%;
+    color: #fff;
+    text-shadow: 1px 1px 7px #00000050
+}
+
+.caption2 {
+    position: absolute;
+    text-align: center;
+    top: 52%;
+    vertical-align: middle;
+    left: 20%;
+    width: 80%;
+    color: #fff
+}
+
+.caption-title {
+    font-size: 4em
+}
+
+.caption-title2 {
+    font-size: 6em;
+    line-height: 60px
+}
+
+.caption-title3 {
+    color: #fff;
+    font-size: 22pt;
+    font-family: 'Comfortaa',cursive;
+    letter-spacing: 3px
+}
+
+.fas.fa-play {
+    color: var(--danger)
+}
+
+.banner-image-holder img {
+    max-width: 100%;
+    max-height: 100%
+}
+
+.serviceTimeInfo {
+    padding: 50px 0 30px 0;
+    background-color: #d5d5d5
+}
+
+.serviceImg {
+    width: 35%
+}
+
+.btnimg {
+    height: 75px;
+    padding-top: 20px;
+    padding-right: 10px;
+    font-size: 50pt;
+    color: #868686
+}
+
+.btnbox {
+    border: 1px solid #dfdfdf;
+    border-radius: 11px;
+    background-color: #f4f4f4;
+    padding: 10px 0 25px;
+    margin-bottom: 10px
+}
+
+.box {
+    background-color: #ff0
+}
+
+.location-description,.location-address,.location-sub-item {
+    font-size: .9em
+}
+
+.location-map {
+    cursor: pointer
+}
+
+.bullitens {
+    background-color: #dbe4ea
+}
+
+.hp-ser-title {
+    font-size: 1.3em;
+    text-transform: uppercase
+}
+
+.messagearea {
+    background-image: url('../img/Clouds.jpg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #d6e1e7;
+    height: 100%
+}
+
+.messagearearow {
+    height: 100%;
+    padding: 20px 0 40px 0
+}
+
+.messagetxtarea {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    position: relative;
+    height: 200px;
+    overflow: hidden
+}
+
+.faded {
+    background-image: linear-gradient(to bottom,transparent,white);
+    background: -webkit-gradient(linear,left top,left bottom,from(rgba(255,255,255,0)),to(#fff))
+}
+
+.read-more {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    margin: 0 !important;
+    padding: 0
+}
+
+.read-more a {
+    position: absolute;
+    bottom: 13px;
+    right: 0;
+    margin-right: 25px;
+    padding: 3px 7px;
+    background-color: var(--blue);
+    color: #fff !important;
+    cursor: pointer;
+    border-radius: 3px;
+    opacity: .7
+}
+
+.messagedate {
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 1.2em;
+    padding-bottom: 10px
+}
+
+.messagetext {
+    color: #454545
+}
+
+.btnarea {
+    min-height: 150px;
+    margin: 65px 0 50px
+}
+
+.btnAreaRow {
+    text-align: center
+}
+
+.BTN-areaTitle {
+    font-size: 14pt;
+    font-weight: 500;
+    padding-top: 15px;
+    color: #8c8c8c
+}
+
+.fa-calendar-alt {
+    color: var(--blue)
+}
+
+.fa-signal-stream {
+    color: var(--blue)
+}
+
+.fa-archive {
+    color: var(--blue)
+}
+
+.notificationArea {
+    background-image: url('../img/Notifications.png');
+    background-repeat: no-repeat;
+    height: 440px;
+    background-size: contain;
+    position: relative;
+    max-width: 1920px;
+    margin: 0 auto
+}
+
+.notificationArea .container {
+    position: relative
+}
+
+.notificationTextArea {
+    position: absolute;
+    right: 60px;
+    text-align: center
+}
+
+.notificationAreaRow {
+    height: 400px
+}
+
+.notificationTitle {
+    font-size: 2.6em;
+    text-align: center;
+    color: #a4a4a4;
+    font-weight: bold
+}
+
+.notificationText {
+    font-size: 18pt;
+    color: #a4a4a4;
+    font-weight: bold;
+    padding: 0 10px;
+    text-align: center
+}
+
+.notificationArea+.row {
+    margin-right: auto !important;
+    overflow-x: hidden
+}
+
+.bulletin-date {
+    position: absolute;
+    top: 39%;
+    left: 0;
+    right: 10px;
+    margin: auto;
+    font-size: 26pt;
+    text-align: center;
+    font-family: 'Parisienne',sans-serif
+}
+
+.bulletin-dayofweek {
+    position: absolute;
+    bottom: 2px;
+    right: 7px;
+    left: 0;
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Parisienne',sans-serif
+}
+
+.bulletin-month {
+    position: absolute;
+    top: 28%;
+    left: 0;
+    right: 7px;
+    text-align: center;
+    color: #686868;
+    font-size: 13pt;
+    text-transform: uppercase;
+    font-family: 'Parisienne',sans-serif
+}
+
+.boardContentArea {
+    background-color: #f3f3f3;
+    margin: 20px auto;
+    padding: 30px 0;
+    max-width: 1920px
+}
+
+.boardContent {
+    border: 1px solid var(--gray-md);
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: #fff
+}
+
+.boardContentTitle {
+    font-size: 1.2em;
+    padding-top: 20px;
+    font-weight: 500
+}
+
+.boardContentText {
+    font-size: .9em;
+    padding-top: 20px
+}
+
+.construcionArea {
+    background-image: url('../img/constructionbkg.png');
+    background-repeat: no-repeat;
+    background-color: #f0f0f0;
+    vertical-align: middle;
+    position: relative;
+    max-width: 1920px;
+    margin: 30px auto;
+    text-align: center
+}
+
+.constructionImage {
+    padding: 20px 0
+}
+
+.historyArea {
+    background-color: #f0f0f0;
+    height: 400px;
+    background-size: contain;
+    display: flex;
+    vertical-align: middle;
+    position: relative;
+    max-width: 1920px;
+    margin: 30px auto
+}
+
+.history-bg-image {
+    background-image: url('../img/history.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    position: relative;
+    height: 400px
+}
+
+.history-text {
+    position: absolute;
+    top: 50px;
+    left: 50px
+}
+
+.historyAreaRow {
+    height: 400px
+}
+
+.historyAreaText {
+    position: absolute;
+    left: 0
+}
+
+.historyTitle {
+    font-size: 50pt;
+    font-family: 'Dancing Script',cursive;
+    text-shadow: 2px 2px 4px #fff;
+    margin-bottom: -17px
+}
+
+.historyText {
+    font-size: 15pt;
+    padding-left: 10px;
+    font-family: 'Acme',sans-serif;
+    margin-top: -10px;
+    margin-left: 10px;
+    margin-bottom: -10px;
+    text-shadow: 2px 2px 4px #fff;
+    letter-spacing: 1px
+}
+
+.historyText2 {
+    font-size: 24pt;
+    padding-bottom: 0;
+    margin-left: -30px;
+    margin-bottom: -10px;
+    font-family: 'Acme',sans-serif;
+    text-shadow: 2px 2px 4px #fff;
+    letter-spacing: 1px
+}
+
+.historyText3 {
+    font-size: 19pt;
+    padding-bottom: 20px;
+    font-family: 'Acme',sans-serif;
+    text-shadow: 2px 2px 4px #fff;
+    letter-spacing: 1px;
+    margin-left: 30px
+}
+
+@media only screen and (max-width: 991px) {
+    .caption-title3 {
+        font-size:16pt
+    }
+
+    .caption2 {
+        top: 50%
+    }
+
+    .hp-ser-title {
+        font-size: 1.2em
+    }
+
+    .BTN-areaTitle {
+        font-size: 12pt
+    }
+
+    .notificationArea {
+        height: 340px
+    }
+
+    .notificationText {
+        color: #000;
+        text-shadow: 1px 1px 2px #a8a8a8
+    }
+
+    .notificationTitle {
+        color: #000;
+        text-shadow: 1px 1px 2px #a8a8a8
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .historyArea {
+        margin:10px auto
+    }
+
+    .caption {
+        top: 15%
+    }
+
+    .historyTitle {
+        color: var(--blue2);
+        text-shadow: 1px 1px 3px var(--dark);
+        font-size: 4.8em
+    }
+
+    .historyText {
+        color: var(--blue2);
+        text-shadow: 1px 1px 3px var(--dark);
+        font-size: 2.2em;
+        top: 0
+    }
+
+    .historyText2 {
+        color: var(--blue2);
+        text-shadow: 1px 1px 3px var(--dark);
+        font-size: 2.2em
+    }
+
+    .historyText3 {
+        color: var(--blue2);
+        text-shadow: 1px 1px 3px var(--dark);
+        font-size: 2.2em
+    }
+
+    .BTN-areaTitle {
+        font-size: 11pt
+    }
+
+    .history-bg-image {
+        height: 369px;
+        width: 335px
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .messagetxtarea {
+        padding:20px 5px
+    }
+
+    .messagedate {
+        font-size: 1.1em
+    }
+
+    .cal {
+        max-width: 70px
+    }
+
+    .bulletin-date {
+        left: 3px;
+        font-size: 22pt
+    }
+
+    .bulletin-dayofweek {
+        right: 7px;
+        left: 0;
+        bottom: -3px
+    }
+
+    .bulletin-month {
+        font-size: 12pt
+    }
+
+    .BBquoteText p {
+        padding: 0 0 0 10px
+    }
+
+    .hp-ser-title {
+        font-size: 1.1em
+    }
+
+    .caption-title3 {
+        font-size: 10pt;
+        letter-spacing: 2px
+    }
+
+    .hp-ser-title {
+        font-size: .99em;
+        color: var(--danger)
+    }
+
+    .padtop {
+        padding-top: 20px
+    }
+
+    .btnarea {
+        padding: 20px;
+        border: 1px solid #e3e3e3;
+        margin: 10px
+    }
+
+    .btnimg {
+        height: 75px;
+        padding-top: 20px;
+        padding-right: 10px;
+        font-size: 50pt
+    }
+
+    .BTN-areaTitle {
+        font-size: 11pt;
+        padding-top: 25px
+    }
+
+    .caption-title {
+        font-size: 3em
+    }
+
+    .service {
+        margin-bottom: 30px
+    }
+
+    .serviceImg {
+        width: 25px
+    }
+
+    .notificationArea {
+        background-image: url('../img/Notifications.png');
+        background-repeat: no-repeat;
+        height: 180px;
+        background-size: contain;
+        vertical-align: middle;
+        position: relative;
+        max-width: 1920px;
+        margin: 30px auto 0 auto
+    }
+
+    .notificationTextArea {
+        right: 0;
+        padding-top: 10px
+    }
+
+    .notificationTitle {
+        font-size: 20pt;
+        text-align: center;
+        color: #fff;
+        font-weight: bold;
+        text-shadow: 2px 2px 4px #626262
+    }
+
+    .notificationText {
+        font-size: 14pt;
+        color: #fff;
+        font-weight: bold;
+        padding: 0 10px;
+        text-align: center;
+        text-shadow: 1px 1px 2px #626262
+    }
+
+    .notificationAreaRow {
+        height: 150px
+    }
+
+    .block {
+        display: block
+    }
+
+    .historyArea {
+        height: 265px;
+        padding: 25px
+    }
+
+    .historyAreaRow {
+        height: 220px
+    }
+
+    .historyTitle {
+        text-shadow: 2px 2px 4px #000;
+        font-size: 3.6em
+    }
+
+    .historyText {
+        text-shadow: 1px 1px 2px #000;
+        padding-left: 60px;
+        font-size: 1.5em
+    }
+
+    .historyText2 {
+        text-shadow: 1px 1px 2px #000;
+        margin-left: 30px;
+        font-size: 2.4em
+    }
+
+    .historyText3 {
+        text-shadow: 1px 1px 2px #000;
+        padding-bottom: 0;
+        font-size: 2em
+    }
+
+    .history-bg-image {
+        height: 329px;
+        width: 375px
+    }
+
+    .nopadrt {
+        padding-right: 0
+    }
+
+    .history-bg-image {
+        height: 180px
+    }
+
+    .history-text {
+        position: relative;
+        top: -40px;
+        left: -9px
+    }
+
+    .serviceTimeInfo {
+        padding: 20px 0
+    }
+
+    .caption-title2 {
+        font-size: 4em;
+        line-height: 60px
+    }
+}
+
+@media only screen and (max-width: 374px) {
+    .nopadrt {
+        padding-right:0
+    }
+
+    .history-bg-image {
+        height: 180px
+    }
+
+    .history-text {
+        position: relative;
+        top: -40px;
+        left: -9px
+    }
+
+    .serviceTimeInfo {
+        padding: 20px 0
+    }
+
+    .caption-title2 {
+        font-size: 4em;
+        line-height: 60px
+    }
+}
+
+.media .fotorama {
+    max-width: 100%
+}
+
+.letter-banner {
+    display: none
+}

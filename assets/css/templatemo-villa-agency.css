@@ -492,6 +492,52 @@ Header Style
   display: flex;
 }
 
+.btnarea {
+  min-height: 150px;
+  margin: 65px 0 50px;
+}
+.btnAreaRow {
+  text-align: center;
+}
+.btnbox {
+  border: 1px solid #dfdfdf;
+  border-radius: 11px;
+  background-color: #f4f4f4;
+  padding: 10px 0 25px;
+  margin-bottom: 10px;
+}
+.BTN-areaTitle {
+  font-size: 14pt;
+  font-weight: 500;
+  padding-top: 15px;
+  color: #8c8c8c;
+}
+.stretched-link::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  pointer-events: auto;
+  content: "";
+  background-color: rgba(0,0,0,0);
+}
+
+.notificationArea {
+  background-image: url('assets/images/Notifications.png');
+  background-repeat: no-repeat;
+  height: 440px;
+  background-size: contain;
+  position: relative;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.notificationAreaRow {
+  height: 400px;
+}
+
 .header-area .main-nav .logo {
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -1107,7 +1153,7 @@ Video Style
 */
 
 .video {
-  background-image: url(../images/video-bg.jpg);
+  background-image: url(../images/Banner-BB-black.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
