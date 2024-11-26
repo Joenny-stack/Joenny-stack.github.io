@@ -555,7 +555,7 @@ Header Style
   height: 40px;
   line-height: 40px;
   text-transform: capitalize;
-  color: #000000;
+  color: #ffffff;
   -webkit-transition: all 0.4s ease 0s;
   -moz-transition: all 0.4s ease 0s;
   -o-transition: all 0.4s ease 0s;
@@ -565,7 +565,7 @@ Header Style
 }
 
 .header-area .main-nav .nav li:last-child a {
-  background-color: #0d45ff;
+  background-color: #ffffff;
   color: #fff;
   font-size: 14px;
   font-weight: 400;
@@ -587,7 +587,7 @@ Header Style
 }
 
 .header-area .main-nav .nav li:last-child:hover a {
-  background-color: #2320ff;
+  background-color: #ffffff;
 }
 
 .header-area .main-nav .nav li:last-child:hover a i {
@@ -647,7 +647,7 @@ Header Style
   -o-transition: all 0.4s;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
-  background-color: #000000;
+  background-color: #ffffff;
   display: block;
   position: absolute;
   width: 30px;
@@ -661,7 +661,7 @@ Header Style
   -o-transition: all 0.4s;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
-  background-color: #000000;
+  background-color: #ffffff;
   display: block;
   position: absolute;
   width: 30px;
@@ -708,11 +708,11 @@ Header Style
   -ms-transform: translateY(6px) translateX(1px) rotate(45deg);
   -webkit-transform: translateY(6px) translateX(1px) rotate(45deg);
   transform: translateY(6px) translateX(1px) rotate(45deg);
-  background-color: #000000;
+  background-color: #ffffff;
 }
 
 .background-header .main-nav .menu-trigger.active span:before {
-  background-color: #000000;
+  background-color: #ffffff;
 }
 
 .header-area .main-nav .menu-trigger.active span:after {
@@ -720,11 +720,11 @@ Header Style
   -ms-transform: translateY(-6px) translateX(1px) rotate(-45deg);
   -webkit-transform: translateY(-6px) translateX(1px) rotate(-45deg);
   transform: translateY(-6px) translateX(1px) rotate(-45deg);
-  background-color: #000000;
+  background-color: #ffffff;
 }
 
 .background-header .main-nav .menu-trigger.active span:after {
-  background-color: #000000;
+  background-color: #ffffff;
 }
 
 .visible{
@@ -754,7 +754,7 @@ Header Style
     line-height: 50px;
     height: 50px;
     font-weight: 400;
-    color: #000000;
+    color: #ffffff;
     background-color: #fff;
      border-radius: 0px 0px 25px 25px;
   }
