@@ -387,7 +387,7 @@ Header Style
 
 .header-area {
   position: relative;
-  background-color: #000000;
+  background-color: #cec5c5;
   height: 100px;
   z-index: 100;
   -webkit-transition: all .5s ease 0s;
@@ -401,7 +401,7 @@ Header Style
   height: 150px;
   color: #fff;
   background-color: #18b1df;
-  background-image: url('../img/Banner-BB-black.jpg');
+  background-image: url('../img/Home-banner.png');
   background-position: center;
   background-size: cover;
   overflow: hidden;
